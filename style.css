@@ -44,7 +44,8 @@ td:nth-of-type(6) {
   border-right: 1px solid #000;
 }
 
-input:invalid {
+input:invalid,
+.invalide {
   border: 1px solid red;
   background-color: #eec3c3;
 }
