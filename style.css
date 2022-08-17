@@ -43,3 +43,15 @@ td:nth-of-type(3),
 td:nth-of-type(6) {
   border-right: 1px solid #000;
 }
+
+input:invalid {
+  border: 1px solid red;
+  background-color: #eec3c3;
+}
+
+button {
+  display: block;
+  margin: 1em auto 0;
+  padding: 0.5em 2em;
+  font-size: 3vh;
+}
