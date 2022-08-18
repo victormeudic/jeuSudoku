@@ -84,7 +84,7 @@ export default class Sudoku {
       }
 
       // Délai d'attente
-      await new Promise(resolve => setTimeout(resolve, 20))
+      await new Promise(resolve => setTimeout(resolve, 10))
       
       // Tant que tu peux progresser
     } while(curseur.progresse())
