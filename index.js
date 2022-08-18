@@ -1,3 +1,14 @@
+const bouttonCheck = document.getElementById('button-verifier');
+  bouttonCheck.addEventListener ('click', () => {
+    bouttonCheck.style.background = "#a0f5a1";
+
+    setTimeout (() => {
+      bouttonCheck.style.background = "#efefef";
+    }, 200)
+  });
+
+
+
 const ajouterErreurChamp = (ligne, col) => {
   const input = document.getElementById("case" + ligne + "-" + col);
   input.classList.add("invalide");
